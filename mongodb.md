@@ -2,7 +2,7 @@
 
 ## 安装服务
 
-1. 创建mongod.cfg，以及对应的目录文件夹
+1. 创建mongod.cfg，以及对应的目录文件夹(给第三步用的)
 
 ```yaml
 systemLog:
@@ -23,7 +23,7 @@ storage:
    ```powershell
    管理员权限打开cmd
    mongod.exe --config "your config path" --install
-   net start MongoDB
+   net start MongoDB (开机自动启动mongodb服务，不需要窗口)
    ```
 
    
